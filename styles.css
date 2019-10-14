@@ -1,5 +1,5 @@
-.greyBackground{
-	background-color: #E8E8E8;	
+.whiteBackground{
+	background-color: #FFFFFF;	
 	padding-top: 70px;
 }
 
@@ -54,3 +54,53 @@ a.nav-link:focus
   background-color: green;
   border-color: #fff;	
 }
+
+.autoimg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.left
+{
+  float: left;
+}
+
+.right
+{
+  float: right;
+}
+
+
+.alignRight {
+	text-align: right;	
+}
+
+.alignLeft {
+	text-align: left;
+}
+
+
+.align-items-center-left {
+  display: flex; 
+  align-items: center;  /*Aligns vertically center */
+  justify-content: flex-start; /*Aligns horizontally center */
+}
+
+.align-items-center-right {
+  float: right;
+  display: flex; 
+  align-items: center;  /*Aligns vertically center */
+  justify-content: flex-end; /*Aligns horizontally center */
+}
+
+
+.summaryBorder{
+	border-radius: 25px;
+	border: 1px solid grey;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
